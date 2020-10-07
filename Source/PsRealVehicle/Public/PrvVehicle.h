@@ -12,7 +12,7 @@ class UPrvVehicleMovementComponent;
  * Vehicle class with implemented custom physics
  */
 UCLASS(abstract, config = Game, Blueprintable, BlueprintType)
-class PSREALVEHICLEPLUGIN_API APrvVehicle : public APawn
+class PSREALVEHICLE_API APrvVehicle : public APawn
 {
 	GENERATED_UCLASS_BODY()
 

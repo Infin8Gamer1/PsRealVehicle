@@ -370,7 +370,7 @@ struct FAnimNode_PrvWheelHandler;
  * Component that uses Torque and Force to move tracked vehicles
  */
 UCLASS(config = Game, defaultconfig)
-class PSREALVEHICLEPLUGIN_API UPrvVehicleMovementComponent : public UPawnMovementComponent
+class PSREALVEHICLE_API UPrvVehicleMovementComponent : public UPawnMovementComponent
 {
 	GENERATED_UCLASS_BODY()
 
